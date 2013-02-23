@@ -9,7 +9,8 @@ Usage
 1. Clone this repo: `git clone https://github.com/vraa/raphael-require.git`.
 2. Copy all JavaScript files into your project `lib` folder (preferably under a folder named *raphael* to keep files organized).
 3. Update your `require.config` file with correct paths to raphael modules. Below is a example configuration.
-```require.config({
+```javascript
+require.config({
  paths:{
   'eve' : 'lib/raphael/eve',
   'raphael-core' : 'lib/raphael/raphael.core',
